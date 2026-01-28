@@ -2,7 +2,7 @@
     "rewrites": [
         {
             "source": "/api/:path*",
-            "destination": "https://stripe-backend-c2ev8m1uu-rounakdutta121s-projects.vercel.app/api/create-checkout"
+            "destination": "https://stripe-backend-bd5finrw2-rounakdutta121s-projects.vercel.app/api/create-checkout"
         },
         {
             "source": "/(.*)",
