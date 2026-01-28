@@ -65,7 +65,7 @@ const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
         {/* Soft Violet and Teal Glows */}
         <div className="absolute top-[5%] left-[10%] w-[600px] h-[600px] bg-indigo-500/10 blur-[130px] rounded-full animate-pulse"></div>
         <div className="absolute bottom-[10%] right-[10%] w-[500px] h-[500px] bg-cyan-600/10 blur-[120px] rounded-full animate-pulse" style={{ animationDelay: '2.5s' }}></div>
-        
+
         {/* Floating Privacy & Trust Icons */}
         <div className="absolute top-[25%] right-[15%] opacity-10 animate-bounce" style={{ animationDuration: '10s' }}>
           <i className="fa-solid fa-shield-halved text-8xl text-indigo-400 rotate-12"></i>
@@ -99,7 +99,7 @@ const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
           {sections.map((section, i) => (
             <div key={i} className="glass-panel p-10 rounded-[2.5rem] border-white/5 hover:border-indigo-500/30 transition-all group">
               <h2 className="text-2xl font-bold mb-6 text-white flex items-center gap-4 group-hover:text-cyan-400 transition-colors">
-                <span className="text-cyan-500/20 text-4xl font-black">0{i+1}</span>
+                <span className="text-cyan-500/20 text-4xl font-black">0{i + 1}</span>
                 {section.title}
               </h2>
               <ul className="space-y-4">
@@ -120,11 +120,11 @@ const PrivacyPage: React.FC<PrivacyPageProps> = ({ onNavigate }) => {
           <i className="fa-solid fa-envelope-shield text-5xl text-cyan-400 mb-6 group-hover:scale-110 transition-transform duration-500"></i>
           <h3 className="text-2xl font-bold mb-4 text-white">Contact Us for Privacy Questions</h3>
           <p className="text-slate-400 mb-8 max-w-md mx-auto">Our dedicated data protection officer is available to answer any concerns regarding your health data privacy.</p>
-          <a 
-            href="mailto:privacy@alisha.ai" 
+          <a
+            href="mailto:damnart.wp@gmail.com"
             className="inline-block px-10 py-4 bg-slate-900 hover:bg-slate-800 text-cyan-400 border border-cyan-500/30 rounded-2xl font-bold text-lg transition-all shadow-xl shadow-cyan-500/10"
           >
-            privacy@alisha.ai
+            damnart.wp@gmail.com
           </a>
         </div>
       </section>

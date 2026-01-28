@@ -108,7 +108,7 @@ const App: React.FC = () => {
     return (
       <div className="antialiased text-slate-200 flex min-h-screen bg-[#05070a]">
         <Sidebar currentView={currentView} onNavigate={navigate} onLogout={handleLogout} />
-        <main className="flex-1 overflow-y-auto p-4 md:p-8">
+        <main className="flex-1 overflow-y-auto p-4 pb-24 md:p-8">
           {paymentSuccess && (
             <div className="mb-6 p-4 glass-panel border-green-500/50 bg-green-500/10 text-green-400 rounded-2xl flex items-center justify-between animate-in fade-in slide-in-from-top-4">
               <div className="flex items-center gap-3">
